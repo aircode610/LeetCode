@@ -8,8 +8,7 @@ public:
 
             if (ind.find(diff) != ind.end())
                 return {i, ind[diff]};
-            else
-                ind[nums[i]] = i;
+            ind[nums[i]] = i;
         }
 
         return {-1, -1};
